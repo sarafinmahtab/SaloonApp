@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "478146377871",
+    "firebase_url": "https://saloonapp-4dd83.firebaseio.com",
+    "project_id": "saloonapp-4dd83",
+    "storage_bucket": "saloonapp-4dd83.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:478146377871:android:ba189f13bd197a4c",
+        "android_client_info": {
+          "package_name": "com.tiham_dipta.saloonapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "478146377871-fge2pqbri3pgha791cp82qbs36ppl1lj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tiham_dipta.saloonapp",
+            "certificate_hash": "bc89c187fcc655f0c72cfd5ce2be76b704ef3161"
+          }
+        },
+        {
+          "client_id": "478146377871-1ka7k4e6n205tl7lkgqqbc93g5j40f2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAGESq3DG9QV-vCvRtx1m5QIAPYLHte1Y"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "478146377871-1ka7k4e6n205tl7lkgqqbc93g5j40f2s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:layout_margin="12dp"
+    android:padding="12dp"
+    android:background="@drawable/border_line">
+
+    <TextView
+        android:id="@+id/schedule_time"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:gravity="center"
+        android:fontFamily="@string/tourist_bd_font_family"
+        android:text="9:30 AM"
+        android:textSize="18sp"
+        android:textColor="@color/textColor" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/book_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:paddingBottom="4dp"
+        android:paddingTop="4dp"
+        android:background="@color/white"
+        fancy:fb_textSize="16sp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_focusColor="@color/colorCyanFocused"
+        fancy:fb_defaultColor="@color/colorCyan"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/book"
+        fancy:fb_textColor="@color/white" />
+
+</LinearLayout>

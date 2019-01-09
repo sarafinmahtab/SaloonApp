@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:text="@string/sign_in_options"
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:fontFamily="@string/tourist_bd_font_family" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/email_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" >
+
+        <EditText
+            android:id="@+id/email_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/tourist_bd_font_family"
+            android:hint="@string/enter_mail"
+            android:inputType="textEmailAddress"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/password_input_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp" >
+
+        <EditText
+            android:id="@+id/password_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@string/tourist_bd_font_family"
+            android:hint="@string/enter_pass"
+            android:inputType="textPassword"
+            android:textSize="16sp" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:id="@+id/sign_in_result_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="10dp"
+        android:background="@color/white"
+        fancy:fb_textSize="16sp"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_focusColor="@color/colorCyanFocused"
+        fancy:fb_defaultColor="@color/colorCyan"
+        fancy:fb_radius="30dp"
+        fancy:fb_text="@string/sign_in"
+        fancy:fb_textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="16sp"
+        android:text="else" />
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:minHeight="0dp"
+        android:minWidth="0dp"
+        android:textColor="@color/textColor"
+        android:textSize="16sp"
+        android:text="@string/register_now"
+        android:textAllCaps="false" />
+
+</LinearLayout>
